@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import { Content, FormContent } from './styles';
 
@@ -54,7 +54,8 @@ function Login({ history }) {
             
             {errorMessage && (
               <span className="error-text">
-                {errorMessage}
+                {/* {errorMessage} */}
+                Errorr
               </span>
             )}
             <button
